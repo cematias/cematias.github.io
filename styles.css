@@ -1,0 +1,47 @@
+body{
+    background-color: #EFF5F5;
+    font-family: 'Exo 2', sans-serif;
+    font-size: large;
+}
+
+header{
+margin: 40px 20px 20px ;
+}
+
+h1 {
+color:#497174;
+text-align: justify;
+}
+#contacto{
+    margin: 60px;
+}
+
+/*
+#descripc_foto{
+    margin-left: 20px;
+}
+img {
+    width: 220px;
+}
+*/
+h2{
+    color:#afb9b9;
+}
+nav.navbar {
+    background-color: #EB6440;
+    text-align: end;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+.nav.navbar:hover{
+
+}
+
+.detalles {
+    margin-top: 100px;
+
+}
