@@ -1,3 +1,6 @@
+html{
+    background-color: #ffffff;
+}
 body{
     background-color: #EFF5F5;
     font-family: 'Exo 2', sans-serif;
@@ -15,15 +18,63 @@ text-align: justify;
 #contacto{
     margin: 60px;
 }
+.ventana{
+    background-color: #8bd2d8;
+    width: 30%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: center;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left:34%;
+    display: none;
+    top: 30%;
+		padding: 20px;
+		
+    
+}
+#cerrar{
+    color: #bd009d;
+		position: absolute;
+    right: 18px;
+    top: 3px;
+		font-size: 40px;
+		
 
-/*
-#descripc_foto{
-    margin-left: 20px;
 }
-img {
-    width: 220px;
-}
-*/
+#contenedor button{
+	
+    background-color: #6c757d; 
+    border: none;
+		border-radius: 9px;		
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		
+		
+    }
+		#contenedor button:hover{
+	
+			background-color: #5e6266; 
+			border: none;
+			border-radius: 9px;		
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			-webkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+
+			}
+			
+
 h2{
     color:#afb9b9;
 }
@@ -34,14 +85,17 @@ nav.navbar {
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
-
-
-}
-.nav.navbar:hover{
-
 }
 
 .detalles {
     margin-top: 100px;
 
+}
+#piepag{
+    font-size: 40px;
+    color:indigo;
+}
+
+footer p {
+    font-size: 12px;
 }
